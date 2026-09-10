@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Altair Silva Junior — Currículo</title>
+  <meta name="description" content="Currículo profissional de Altair Silva Junior. Experiência em compras, PCP e administração, idiomas, habilidades e certificações." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    (() => {
+      const saved = localStorage.getItem("cv-theme");
+      const theme = saved === "light" || saved === "dark"
+        ? saved
+        : (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+</head>
+<body>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav__brand" href="#inicio">AS</a>
+    <nav class="nav__links" aria-label="Seções do currículo">
+      <a href="#inicio">Início</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#formacao">Formação</a>
+      <a href="#certificacoes">Certificações</a>
+      <a href="#idiomas">Idiomas</a>
+      <a href="#habilidades">Habilidades</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema claro/escuro">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        <i class="fa-solid fa-sun" aria-hidden="true"></i>
+      </button>
+      <button class="nav__toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <canvas class="hero__canvas" aria-hidden="true"></canvas>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__photo reveal">
+          <div class="photo-ring">
+            <img src="assets/foto.png" alt="Foto profissional de Altair Silva Junior" />
+          </div>
+          <ul class="hero__meta">
+            <li><i class="fa-solid fa-envelope"></i> altairsilvaa09@gmail.com</li>
+            <li><i class="fa-solid fa-phone"></i> (35) 99745-0085</li>
+            <li><i class="fa-solid fa-cake-candles"></i> 28 anos</li>
+            <li><i class="fa-solid fa-location-dot"></i> Conceição dos Ouros, MG</li>
+          </ul>
+        </div>
+        <div class="hero__copy">
+          <p class="eyebrow reveal">Currículo profissional</p>
+          <h1 class="reveal">Altair Silva Junior</h1>
+          <p class="hero__role reveal">Analista de Compras · PCP · Administração</p>
+          <p class="hero__quote" data-type>
+            “Atuação estratégica em compras, produção e processos — com foco em dados, eficiência e resultado.”
+          </p>
+          <div class="hero__cta reveal">
+            <a class="btn btn--gold" href="#experiencia">
+              <i class="fa-solid fa-briefcase"></i> Ver trajetória
+            </a>
+            <a class="btn btn--ghost" href="#habilidades">
+              <i class="fa-solid fa-layer-group"></i> Habilidades
+            </a>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#experiencia" aria-label="Ir para experiência">
+        <span>Scroll</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <section id="experiencia" class="section">
+      <div class="section__head reveal">
+        <span class="section__index">01</span>
+        <div>
+          <p class="eyebrow">Trajetória</p>
+          <h2><i class="fa-solid fa-briefcase"></i> Experiência profissional</h2>
+        </div>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <article class="card">
+            <header class="card__head">
+              <div>
+                <h3>Analista de Compras</h3>
+                <p class="card__org"><i class="fa-solid fa-building"></i> Metagal Ind — Conceição dos Ouros, MG</p>
+              </div>
+              <span class="chip">mar. 2025 — atual</span>
+            </header>
+            <p>Atuação estratégica nas áreas de compras diretas e MRO, com foco em análise de dados para suporte à tomada de decisão, identificação de oportunidades de redução de custos e otimização de processos. Experiência em melhoria contínua, revisão de fluxos e implementação de práticas que aumentam eficiência operacional e competitividade.</p>
+            <p>Responsável pelo desenvolvimento e homologação de novos fornecedores e negociação estratégica.</p>
+            <ul class="tags">
+              <li>Compras diretas</li>
+              <li>MRO</li>
+              <li>Negociação</li>
+              <li>Análise de dados</li>
+            </ul>
+          </article>
+        </li>
+        <li class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <article class="card">
+            <header class="card__head">
+              <div>
+                <h3>Analista de PCP</h3>
+                <p class="card__org"><i class="fa-solid fa-building"></i> Suri Metais — Pouso Alegre, MG</p>
+              </div>
+              <span class="chip">mar. 2024 — jun. 2024</span>
+            </header>
+            <p>Planejamento e elaboração do plano de produção, pedido de compras e contato direto com fornecedores, abertura de ordem de produção, controle de estoque, lançamento e controle diário de produção, emissão de pedidos de vendas, implementação do MRP da empresa, follow-up diário, empenho, apontamento e liberação da ordem no sistema Totvs. Uso intensivo do Excel.</p>
+            <ul class="tags">
+              <li>PCP</li>
+              <li>MRP</li>
+              <li>Totvs</li>
+              <li>Excel</li>
+            </ul>
+          </article>
+        </li>
+        <li class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <article class="card">
+            <header class="card__head">
+              <div>
+                <h3>Auxiliar Administrativo</h3>
+                <p class="card__org"><i class="fa-solid fa-building"></i> Tup Guar — Conceição dos Ouros, MG</p>
+              </div>
+              <span class="chip">mai. 2018 — mai. 2020</span>
+            </header>
+            <p>Realização de pedido e necessidades de compras, abertura de ordem de produção, atendimento ao cliente, realização de inventário, controle de estoque, lançamentos de custos da produção, entrada e saída de notas fiscais, lançamento de requisição de compra, controle de banco de horas dos funcionários e controle de almoxarifado. Uso intensivo do Excel, Word e Intellicash.</p>
+            <ul class="tags">
+              <li>Compras</li>
+              <li>Estoque</li>
+              <li>Excel</li>
+              <li>Intellicash</li>
+            </ul>
+          </article>
+        </li>
+      </ol>
+    </section>
+
+    <section id="formacao" class="section section--alt">
+      <div class="section__head reveal">
+        <span class="section__index">02</span>
+        <div>
+          <p class="eyebrow">Base acadêmica</p>
+          <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+        </div>
+      </div>
+
+      <div class="grid grid--2">
+        <article class="edu-card reveal">
+          <div class="edu-card__icon"><i class="fa-solid fa-user-graduate"></i></div>
+          <p class="edu-card__level">Graduação</p>
+          <h3>Engenharia Elétrica</h3>
+          <p class="edu-card__school"><i class="fa-solid fa-university"></i> UNA — Pouso Alegre, MG</p>
+          <p>Graduação em Engenharia Elétrica.</p>
+          <span class="chip">2019 — 2023</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="certificacoes" class="section">
+      <div class="section__head reveal">
+        <span class="section__index">03</span>
+        <div>
+          <p class="eyebrow">Qualificações</p>
+          <h2><i class="fa-solid fa-certificate"></i> Certificações</h2>
+        </div>
+      </div>
+
+      <div class="grid grid--2">
+        <article class="edu-card reveal">
+          <div class="edu-card__icon"><i class="fa-solid fa-bolt"></i></div>
+          <p class="edu-card__level">Curso</p>
+          <h3>Eletropneumática</h3>
+          <p class="edu-card__school"><i class="fa-solid fa-screwdriver-wrench"></i> Capacitação técnica</p>
+          <p>Formação em sistemas eletropneumáticos aplicados à indústria.</p>
+        </article>
+        <article class="edu-card reveal">
+          <div class="edu-card__icon"><i class="fa-solid fa-drafting-compass"></i></div>
+          <p class="edu-card__level">Curso</p>
+          <h3>AutoCAD</h3>
+          <p class="edu-card__school"><i class="fa-solid fa-pen-ruler"></i> Desenho técnico</p>
+          <p>Conhecimento em desenho e modelagem com AutoCAD.</p>
+        </article>
+        <article class="edu-card reveal">
+          <div class="edu-card__icon"><i class="fa-solid fa-table"></i></div>
+          <p class="edu-card__level">Curso</p>
+          <h3>Excel</h3>
+          <p class="edu-card__school"><i class="fa-solid fa-file-excel"></i> Planilhas e análise</p>
+          <p>Uso avançado de Excel para controle, análise e rotinas operacionais.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="idiomas" class="section section--alt">
+      <div class="section__head reveal">
+        <span class="section__index">04</span>
+        <div>
+          <p class="eyebrow">Comunicação</p>
+          <h2><i class="fa-solid fa-language"></i> Idiomas</h2>
+        </div>
+      </div>
+
+      <div class="langs">
+        <article class="lang-card reveal" data-percent="100">
+          <div class="ring" style="--p: 100">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <circle class="ring__track" cx="60" cy="60" r="52" />
+              <circle class="ring__value" cx="60" cy="60" r="52" />
+            </svg>
+            <strong>100%</strong>
+          </div>
+          <h3><i class="fa-solid fa-flag"></i> Português</h3>
+          <p>Nativo</p>
+        </article>
+        <article class="lang-card reveal" data-percent="30">
+          <div class="ring" style="--p: 30">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <circle class="ring__track" cx="60" cy="60" r="52" />
+              <circle class="ring__value" cx="60" cy="60" r="52" />
+            </svg>
+            <strong>30%</strong>
+          </div>
+          <h3><i class="fa-solid fa-flag"></i> Inglês</h3>
+          <p>Básico — cursando atualmente</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section">
+      <div class="section__head reveal">
+        <span class="section__index">05</span>
+        <div>
+          <p class="eyebrow">Competências</p>
+          <h2><i class="fa-solid fa-toolbox"></i> Habilidades e ferramentas</h2>
+        </div>
+      </div>
+
+      <div class="projects">
+        <article class="project tilt reveal">
+          <div class="project__top">
+            <span class="project__icon"><i class="fa-solid fa-people-group"></i></span>
+            <span class="chip">Comportamental</span>
+          </div>
+          <h3>Comunicação e equipe</h3>
+          <p>Facilidade em comunicação e trabalho em equipe.</p>
+        </article>
+        <article class="project tilt reveal">
+          <div class="project__top">
+            <span class="project__icon"><i class="fa-solid fa-laptop"></i></span>
+            <span class="chip">Ferramentas</span>
+          </div>
+          <h3>Office e AutoCAD</h3>
+          <p>Conhecimento em AutoCAD, PowerPoint e Word.</p>
+          <ul class="tags">
+            <li>AutoCAD</li>
+            <li>PowerPoint</li>
+            <li>Word</li>
+          </ul>
+        </article>
+        <article class="project tilt reveal">
+          <div class="project__top">
+            <span class="project__icon"><i class="fa-solid fa-database"></i></span>
+            <span class="chip">Avançado</span>
+          </div>
+          <h3>Totvs e Excel</h3>
+          <p>Conhecimento avançado em Totvs e Excel.</p>
+          <ul class="tags">
+            <li>Totvs</li>
+            <li>Excel</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="modal" id="project-modal">
+    <button class="modal__close" type="button" aria-label="Fechar">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <p class="eyebrow" data-modal-tag></p>
+    <h3 data-modal-title></h3>
+    <p data-modal-text></p>
+  </dialog>
+
+  <footer class="footer">
+    <p>Altair Silva Junior · Currículo profissional</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
